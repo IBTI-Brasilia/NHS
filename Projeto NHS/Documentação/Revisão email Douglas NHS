@@ -1,0 +1,26 @@
++ visualização do limite de tensão e saída [OK] 18/07/2019
++ alteração do limite de tensão e saída [OK] 23/07/2019
++ instalador do programa realizado e corrigido [OK] 25/07/2019
++ Correção de envio dos valores de tensão de saida e escrita [OK] 26/07/2019
++ Regulador do fator de potência growatt [OK] 29/07/2019
++ Conexão RS232 [OK] 13/08/2019
++ Descoberta dos modelos que não tem hora do growatt [OK] 14/08/2019
++ Descoberta dos modelos que não tem  power factor do growatt [OK] 14/08/2019
++ Alteração da funcionalidade e da UI de acordo com o tipo de inversor (goodwe x growatt)[OK]  14/08/2019
++ Alteração da funcionalidade e da UI de acordo com o modelo do inversor[OK]  14/08/2019
++ Correção de bug - FASE L1 estava com valores errados [OK] 15/08/2019
++ Modificação do Restart Delay time [OK] 14/08/2019
++ Leitura e escrita do Restart Delay time [OK] 18/08/2019
++ Problemas na conexão com a porta serial, velocidade da alteração [OK] 16/08/2019
++ Atualização da mensagem de falha de escrita em registrador [OK] 21/08/2019
++ Criação do log [OK] 14/09/2019
++ Porta serial sem alteração - retirar porta serial não sai do programa [OK] 14/09/2019
++ Protocolo modbus para para goodwe [OK] 17/09/2019
++ Atualização do UI dos limites de tensão após alteração do limites [OK] 19/09/2019 
++ Correção na UI, fazendo arredondamento de float [OK] 23/09/2019
++ Atualização das informações e da UI após envio de primeira alteração [OK] 23/09/2019
++ Garantia para todos os modelos e tipo de inversores [OK] 		27/09/2019
++ Recebimento de dados melhorado [OK] - 02/10/2019
++ Comutação entre os protocolo dado determinado modelo do goodwe [OK] 05/10/2019
++ Remoção do campo Curva FP  [ OK] 10/10/2019
++ Seleção da porta serial responsável persistente [OK] 14/10/2019

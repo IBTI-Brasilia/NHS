@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/logo_nhs.png</file>
+        <file>img/repairing_service.ico</file>
+    </qresource>
+</RCC>

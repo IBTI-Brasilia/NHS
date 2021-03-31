@@ -1,0 +1,23 @@
+Turorial - criação do instalador
+
+1- Build no Qt com modo Release
+
+2- Abrir power shell
+
+3- cd "C:\Qt\5.12.3\mingw73_64\bin"
+
+4- .\windeployqt.exe --compiler-runtime <DIR ONDE ESTÁ O RELEASE/DEBUG DO PROJETO> 
+=========================================================
+	Exemplos:
+
+ .\windeployqt.exe --compiler-runtime C:\Users\gabri\OneDrive\Documentos\NHS\nhs-inverter-configtool\build-NHSInverterConfig-Desktop_Qt_5_12_3_MinGW_64_bit-Release\release 
+
+.\windeployqt.exe --compiler-runtime C:\Users\IBTI\Documents\build-NHSInverterConfig-Desktop_Qt_5_12_3_MinGW_64_bit-Release\release
+=========================================================
+
+5- Copiar o icone para a pasta release e zipar (com 7zip) tudo junto (não zipar a pasta relesase, só o conteúdo)
+
+6- cd <DIRETORIO DO PROJETO EM SI, NA PASTA INSTALLER>
+	Exemplo cd C:\Users\gabri\OneDrive\Documentos\NHS\nhs-inverter-configtool\nhs-inverter-configtool\installer
+	Exemplo cd "C:\Users\IBTI\Documents\nhs-inverter-configtool\installer"
+7- >C:\Qt\Tools\QtInstallerFramework\3.1\bin\binarycreator.exe -c config\config.xml -p packages <Nome_do_Instalador>.exe 

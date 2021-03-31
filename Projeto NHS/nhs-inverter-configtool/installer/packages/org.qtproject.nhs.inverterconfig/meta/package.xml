@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>NHS InverterConfigTool</DisplayName>
+    <Description>NHS InverterConfigTool, software to NHS inverter configuration.</Description>
+    <Version>1.6.100</Version>
+    <ReleaseDate>2019-10-02</ReleaseDate>
+	<Licenses>
+		<License name="Licença NHS" file="license.txt" />
+	</Licenses>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+	<!-- <UserInterfaces>
+		<UserInterface>inverterconfigmain.ui</UserInterface>
+	</UserInterfaces> -->
+</Package>

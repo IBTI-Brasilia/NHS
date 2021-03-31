@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>InverterConfigTool</Name>
+    <Version>1.6.100</Version>
+    <Title>Ferramenta de Configuração do NHS</Title>
+    <Publisher>NHS Sistemas Eletrônicos</Publisher>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>NHSInverterConfig</StartMenuDir>
+    <TargetDir>@HomeDir@/InverterConfig</TargetDir>
+</Installer>
